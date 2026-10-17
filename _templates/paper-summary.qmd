@@ -1,0 +1,24 @@
+---
+# Copy to ledger/YYYY-MM-DD-short-name.qmd and fill in.
+# (Folders starting with "_" are never rendered, so this template stays private.)
+title: "Paper title (Authors, Year)"
+date: YYYY-MM-DD
+categories: [topic-1, topic-2]
+---
+
+**Paper:** [link](https://arxiv.org/abs/XXXX.XXXXX) · **Read for:** Topic N, ...
+
+## Claim
+One or two sentences: what the paper says is true.
+
+## Method
+How they get there: the key idea, model or derivation, in my own words.
+
+## Evidence
+What the experiments or proofs actually show, and how strong that is.
+
+## Critique
+Assumptions, gaps, what is overclaimed, what is missing.
+
+## What I'd test
+One concrete experiment I could run to probe the claim.

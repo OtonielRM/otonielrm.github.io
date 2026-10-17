@@ -1,0 +1,11 @@
+---
+title: "Projects"
+toc: false
+---
+
+All code lives in the [ML-Project monorepo](https://github.com/OtonielRM/ML-Project).
+Each project's README is a short technical report: question → method → results → limitations.
+
+| Project | Language | What it is | Status |
+|---|---|---|---|
+| [linalg-kernels](https://github.com/OtonielRM/ML-Project/tree/main/linalg-kernels) | C++20 | Dense linear algebra from scratch: matmul, LU, QR, randomized SVD. Tested under ASan/UBSan. | In progress |

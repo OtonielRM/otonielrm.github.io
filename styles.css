@@ -1,0 +1,8 @@
+/* Small overrides on top of the Quarto theme. */
+body {
+  font-size: 1.05rem;
+}
+
+.quarto-listing-table td {
+  vertical-align: top;
+}

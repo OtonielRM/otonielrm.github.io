@@ -1,0 +1,38 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Otoniel Ruiz"
+  site-url: https://otonielrm.github.io
+  repo-url: https://github.com/OtonielRM/otonielrm.github.io
+  navbar:
+    left:
+      - href: index.qmd
+        text: About
+      - href: projects.qmd
+        text: Projects
+      - href: ledger.qmd
+        text: Reading Ledger
+      - href: blog.qmd
+        text: Blog
+    right:
+      - icon: github
+        href: https://github.com/OtonielRM
+        aria-label: GitHub
+  page-footer:
+    center: "© 2026 Otoniel Ruiz · Built with [Quarto](https://quarto.org)"
+
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: darkly
+    css: styles.css
+    toc: true
+    code-copy: true
+    html-math-method: katex
+
+execute:
+  # Pages with executed code are rendered locally once; CI reuses the frozen results.
+  freeze: auto

@@ -1,0 +1,13 @@
+---
+title: "Reading Ledger"
+description: "Structured summaries of the papers I read: claim, method, evidence, and what I'd test next."
+toc: false
+listing:
+  contents: ledger/*.qmd
+  type: table
+  sort: "date desc"
+  fields: [date, title, categories]
+  categories: true
+  sort-ui: true
+  filter-ui: true
+---

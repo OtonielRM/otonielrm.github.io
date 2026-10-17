@@ -1,0 +1,25 @@
+---
+title: "Otoniel Ruiz"
+subtitle: "Physicist building machine learning systems from the math up to the kernel"
+toc: false
+---
+
+<!-- DRAFT: rewrite in your own voice before announcing the site. -->
+
+I studied physics and work on optimization problems in aviation. This site documents a
+structured, from-scratch path through machine learning: deriving the mathematics,
+implementing the algorithms myself (Python, C++, Java), and testing them with
+reproducible experiments.
+
+**What you'll find here**
+
+- [**Projects**](projects.qmd): from-scratch implementations with tests, ablations and
+  written results, from numerical linear algebra kernels to scientific ML.
+- [**Reading Ledger**](ledger.qmd): short, structured summaries of the papers I read.
+- [**Blog**](blog.qmd): explainers that connect physics intuition to ML, plus
+  reproduction reports (including the negative results).
+
+**Interests:** scientific machine learning, optimization, numerical methods,
+and ML systems.
+
+[GitHub](https://github.com/OtonielRM)
